@@ -1,0 +1,13 @@
+{
+  "name": "yaled",
+  "version": "0.1.0",
+  "description": "A delayer in node; like deelay, but in node.",
+  "main": "server.js",
+  "author": "Ian James <injms@users.noreply.github.com>",
+  "license": "UNLICENSED",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.2",
+    "is-url": "^1.2.2"
+  }
+}
