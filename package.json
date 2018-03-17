@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "private": false,
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.16.3",
     "is-url": "^1.2.2"
   }
 }
