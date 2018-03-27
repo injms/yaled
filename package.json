@@ -8,6 +8,6 @@
   "private": false,
   "dependencies": {
     "express": "^4.16.3",
-    "is-url": "^1.2.3"
+    "is-url": "^1.2.4"
   }
 }
