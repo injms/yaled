@@ -6,11 +6,11 @@ Totally inspired by Deelay.me (now defunct) and [Atwood's Law](https://blog.codi
 This is a delay proxy, allowing you to test what happens when one or more assets load slowly. Useful for breaking things.
 
 ## Install
-Requires Node (tested on v8.6.0 and v20.17.0).
+Requires Node v23.
 
 Clone the repo, then `npm install` to get the dependencies.
 
-Then it's `node server.js` to run.
+Then it's `npm start` to run.
 
 ## Use
 Change a resource's URI to be proxied by Yaled:
@@ -36,7 +36,6 @@ Or the loading of scripts:
 
 <script src-"http://localhost:3000/10/https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 ```
-
 
 ## To do
  - Package for NPM

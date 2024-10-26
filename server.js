@@ -1,7 +1,9 @@
-const express  = require('express');
-const app      = express();
-const isURL    = require('is-url');
-const settings = require('./config.json');
+import express from 'express';
+import isURL from 'is-url';
+
+import settings from './config.json' with { type: 'json' };
+
+const app = express();
 
 app.get('/:timing/*', function (req, response) {
     let delayTime = Math.floor(req.params.timing);
