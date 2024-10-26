@@ -1,14 +1,14 @@
 # Yaled
 <small>It's delay backwards.</small>
 
-Totally inspired by [Deelay.me](http://www.deelay.me) and [Atwood's Law](https://blog.codinghorror.com/the-principle-of-least-power).
+Totally inspired by Deelay.me (now defunct) and [Atwood's Law](https://blog.codinghorror.com/the-principle-of-least-power).
 
 This is a delay proxy, allowing you to test what happens when one or more assets load slowly. Useful for breaking things.
 
 ## Install
-Requires Node (tested on v8.6.0) and Yarn (tested on 1.2.1).
+Requires Node (tested on v8.6.0 and v20.17.0).
 
-Clone the repo, then `yarn install` to get the dependencies.
+Clone the repo, then `npm install` to get the dependencies.
 
 Then it's `node server.js` to run.
 
@@ -26,7 +26,7 @@ The {url} is the full resource you want to delay loading.
 For example, delaying the loading of an image by 10 seconds:
 
 ```html
-<img src="http://localhost:3000/10/https://www.wwf.org.uk/donate-with-apple-pay/assets/images/polar-bear-looking-up_v5lekv_c_scale,w_1260.jpg" alt="Polar bear">
+<img src="http://localhost:3000/10/https://www.placeholder-image.com/image.jpeg" alt="A placeholder image">
 ```
 
 Or the loading of scripts:
